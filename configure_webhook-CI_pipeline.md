@@ -47,7 +47,15 @@ This demo shows the process of configuring a webhook to trigger a CI Pipeline to
 
 4. **I then built the "my-pipeline" job and it was successful**
 
+
+<img width="1666" height="766" alt="webhook1" src="https://github.com/user-attachments/assets/beae5285-3e61-4a62-9f5d-0647dfb2c5ed" />
+
+
 5. **I then edited the Jenkinsfile in the "feature/payment" branch to check if the automatic build would occur and it did - the build number had increased to #26 and was a complete build**
+
+
+<img width="1666" height="770" alt="webhook2" src="https://github.com/user-attachments/assets/0245a4d9-c3c6-4e80-92ad-329dbe8e4231" />
+
 
 6. **I then went to set-up the automatic Gitlab push for the multi-pipeline job, but it was not as easy a set-up as for the single pipeline job. The gitlab plugin does not work for the multibranch pipeline. I needed to install a different plugin called "Multibranch Scan Webhook Trigger"**
 
@@ -60,3 +68,10 @@ This demo shows the process of configuring a webhook to trigger a CI Pipeline to
 **I then went back to the Gitlab Webhook settings and clicked "push events" and "all branches". I then clicked "add webhook"**
 
 **I then tested the automatic build trigger worked by changing the project code - it was successful as the 5th build was triggered and successfully completed**
+
+
+<img width="1800" height="639" alt="webhook3" src="https://github.com/user-attachments/assets/7a2b505b-c964-4172-abfc-2553e1c03f39" />
+
+
+
+
